@@ -1,0 +1,642 @@
+[
+    {
+      "id": 1,
+      "code": "AB-110",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,
+	  "lat": 45.547715,
+      "lng": 13.724123,"conditionM": "avalible",
+      "client": "ljevnikar1"
+    },
+    {
+      "id": 2,
+      "code": "AF-112",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547724,
+        "lng": 13.72419
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 3,
+      "code": "AB-114",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.5476881,
+        "lng": 13.724498
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 4,
+      "code": "AF-115",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547741,
+        "lng": 13.724302
+      ,"conditionM": "avalible"
+    },
+    {
+      "id": 5,
+      "code": "AB-116",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547741,
+        "lng": 13.724369
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 6,
+      "code": "AF-118",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547737,
+        "lng": 13.724455
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 7,
+      "code": "AB-120",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.54763,
+        "lng": 13.724154
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 8,
+      "code": "AF-122",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547636,
+        "lng": 13.724214
+      ,"conditionM": "avalible"
+    },
+    {
+      "id": 9,
+      "code": "AB-124",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547642,
+        "lng": 13.724281
+      ,"conditionM": "repair"
+    },
+    {
+      "id": 10,
+      "code": "AF-125",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547646,
+        "lng": 13.724343
+      ,"conditionM": "avalible",
+      "client": "ljevnikar1444"
+    },
+    {
+      "id": 11,
+      "code": "AB-126",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.54765,
+        "lng": 13.724405
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 12,
+      "code": "AF-128",
+      "width": "15m",
+      "length": "25m",
+      "watherDepth": "70m",
+      "type": "wet",
+      "price": 1300,"lat": 45.547652,
+        "lng": 13.724472
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 13,
+      "code": "GF-300",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547312,
+        "lng": 13.724218
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 14,
+      "code": "GF-301",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.54732,
+        "lng": 13.724285
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 15,
+      "code": "GF-302",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547339,
+        "lng": 13.724355
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 16,
+      "code": "GF-303",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547352,
+        "lng": 13.724433
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 17,
+      "code": "GF-304",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547365,
+        "lng": 13.724487
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 18,
+      "code": "GF-305",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547378,
+        "lng": 13.724554
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 19,
+      "code": "GF-306",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547393,
+        "lng": 13.724618
+      ,"conditionM": "avalible"
+    },
+    {
+      "id": 20,
+      "code": "GF-307",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547395,
+        "lng": 13.724685
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 21,
+      "code": "GF-310",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547215,
+        "lng": 13.724242
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 21,
+      "code": "GF-311",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.54723,
+        "lng": 13.724298
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 23,
+      "code": "GF-312",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547243,
+        "lng": 13.724346
+      ,"conditionM": "avalible"
+    },
+    {
+      "id": 24,
+      "code": "GF-313",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547262,
+        "lng": 13.724405
+      ,"conditionM": "repair"
+    },
+    {
+      "id": 25,
+      "code": "GF-314",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547275,
+        "lng": 13.724469
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 26,
+      "code": "GF-315",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547294,
+        "lng": 13.724544
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 27,
+      "code": "GF-316",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.547311,
+        "lng": 13.724616
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 28,
+      "code": "GF-317",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,"lat": 45.54733,
+        "lng": 13.724672
+      ,"conditionM": "taken"
+    },
+    {
+      "id": 29,
+      "code": "KF-300",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "repair"
+    },
+    {
+      "id": 30,
+      "code": "KF-301",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 31,
+      "code": "KF-302",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 32,
+      "code": "KF-303",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "avalible"
+    },
+    {
+      "id": 33,
+      "code": "KF-304",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 34,
+      "code": "KF-305",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 35,
+      "code": "KF-306",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 36,
+      "code": "KF-307",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "repair"
+    },
+    {
+      "id": 37,
+      "code": "KF-310",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 38,
+      "code": "KF-311",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 39,
+      "code": "KF-312",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 40,
+      "code": "KF-313",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 41,
+      "code": "KF-314",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 42,
+      "code": "KF-315",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "taken"
+    },
+    {
+      "id": 43,
+      "code": "KF-316",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "avalible"
+    },
+    {
+      "id": 44,
+      "code": "KF-317",
+      "width": "12m",
+      "length": "21m",
+      "watherDepth": "60m",
+      "type": "wet",
+      "price": 1000,
+      "conditionM": "avalible"
+    },
+    {
+      "id": 46,
+      "code": "SM-51",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 47,
+      "code": "SM-52",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 48,
+      "code": "SM-53",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 49,
+      "code": "SM-54",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 50,
+      "code": "SM-55",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 51,
+      "code": "SM-56",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 52,
+      "code": "SM-57",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 53,
+      "code": "SM-58",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "repair"
+    },
+    {
+      "id": 54,
+      "code": "SM-60",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 55,
+      "code": "SM-61",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 56,
+      "code": "SM-62",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 57,
+      "code": "SM-63",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 58,
+      "code": "SM-64",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 59,
+      "code": "SM-65",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 60,
+      "code": "SM-66",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 61,
+      "code": "SM-67",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "taken"
+    },
+    {
+      "id": 62,
+      "code": "SM-68",
+      "width": "8m",
+      "length": "15m",
+      "watherDepth": "40m",
+      "type": "wet",
+      "price": 600,
+      "conditionM": "avalible"
+    }
+  ]
