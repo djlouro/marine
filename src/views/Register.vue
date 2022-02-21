@@ -72,6 +72,7 @@
                         </CCard>
                     </CCardGroup>
                 </CCol>
+        
             </CRow>
       </CContainer>
   </div>
@@ -80,6 +81,7 @@
 <script>
 import Vue from 'vue'
 import {Auth} from "aws-amplify";
+import axios from 'axios';
 
 export default {
   name: 'Register',
@@ -118,10 +120,20 @@ export default {
               this.errorMsg = err
           })
       },
+
+        setNewClient() {
+        axios({
+          method: 'POST',
+          url: 'http://localhost:3000/clients?username='+this.username,
+    }).then(r => {
+        this.$router.push({name: 'Login'})
+      })
+    },
+
       confirmRegister() {
         Auth.confirmSignUp(this.username, this.code)
         .then(data => {
-              this.$router.push({name: 'Login'})
+                this.setNewClient()
           })
           .catch(err => {
               this.errorMsg = err

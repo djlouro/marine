@@ -8,6 +8,7 @@ const TheContainer = () => import('@/containers/TheContainer')
 const Dashboard = () => import('@/views/Dashboard')
 const Moorings = () => import('@/views/Moorings')
 const Orders = () => import('@/views/Orders')
+const Clients = () => import('@/views/Clients')
 const Camera = () => import('@/views/Cam')
 const MooringsCreate = () => import('@/views/MooringsCreate')
 const Login = () => import('@/views/Login')
@@ -32,6 +33,11 @@ const routes = [{
           path: 'moorings',
           name: 'Moorings',
           component: Moorings
+        },
+        {
+          path: 'clients',
+          name: 'Clients',
+          component: Clients
         },
         {
           path: 'orders',

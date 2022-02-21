@@ -80,5 +80,7 @@
     "orders": "Naročila",
     "camera": "Kamera",
     "forum": "Forum",
-    "NEW": "NOVO"
+    "NEW": "NOVO",
+    "clients": "Stranke",
+    "clientChanged": "Strnaka bo posodobljena"
 }

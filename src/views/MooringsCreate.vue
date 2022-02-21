@@ -101,23 +101,16 @@
                       {{$t('username')}}
                     </CCol>
                     <CCol md="9">
-                        <CInput v-model="mooring.username" :placeholder="$t('usernme')">></CInput>
+                        <CInput @input="setNewClient" v-model="mooring.client" :placeholder="$t('usernme')">></CInput>
                     </CCol>
                 </CRow>
+                <div v-if="!newClient">
                 <CRow align-vertical="center" class="mb-2">
                     <CCol md="3">
                          {{$t('fullName')}}
                     </CCol>
                     <CCol md="9">
-                        <CInput placeholder="Name and surname">></CInput>
-                    </CCol>
-                </CRow>
-                <CRow align-vertical="center" class="mb-2">
-                    <CCol md="3">
-                        {{$t('street')}}
-                    </CCol>
-                    <CCol md="9">
-                        <CInput :placeholder="$t('street')">></CInput>
+                        <CInput readonly v-model="client.fullName" placeholder="Name and surname">></CInput>
                     </CCol>
                 </CRow>
                 <CRow align-vertical="center" class="mb-2">
@@ -125,10 +118,10 @@
                          {{$t('address')}}
                     </CCol>
                     <CCol md="4">
-                        <CInput :placeholder="$t('ZIP')"></CInput>
+                        <CInput v-model="client.zip" readonly :placeholder="$t('ZIP')"></CInput>
                     </CCol>
                     <CCol md="5">
-                        <CInput :placeholder="$t('town')">></CInput>
+                        <CInput v-model="client.address" readonly :placeholder="$t('town')">></CInput>
                     </CCol>
                 </CRow>
                 <CRow align-vertical="center" class="mb-2">
@@ -136,9 +129,15 @@
                         {{$t('country')}}
                     </CCol>
                     <CCol md="9">
-                        <CInput :placeholder="$t('country')">></CInput>
+                        <CInput v-model="client.country" readonly :placeholder="$t('country')">></CInput>
                     </CCol>
                 </CRow>
+                </div>
+                <div v-if="newClient">
+                    <CAlert color="warning">
+                        {{$t('clientChanged')}}
+                    </CAlert>
+                </div>
             </CCardBody>
           </CCard>
       </CCol>
@@ -162,6 +161,15 @@ export default {
   data () {
     return {
       editUser: false,
+      client: {
+          username: "",
+          fullName: "",
+          address: "",
+          street: "",
+          zip: "",
+          country: "",
+          note: ""
+      },
       mooring: {
             id: "",
             code: "",
@@ -176,11 +184,16 @@ export default {
             lng: null,
             note: ""
           },
+
+          newClient: false
     }
   },
   computed: {
   },
   methods: {
+      setNewClient() {
+        this.newClient = true
+      },
     saveMooring() {
       this.mooring.lat = parseFloat(this.mooring.lat)
       this.mooring.lng = parseFloat(this.mooring.lng)
@@ -203,12 +216,34 @@ export default {
           this.$router.push({name: 'Moorings'})
         })
       }
+    },
+
+    getClient(username) {
+axios({
+          method: 'GET',
+          url: 'http://localhost:3000/clients/mooring/'+username
+    }).then(r => {
+        if (r.data[0]) {
+            for (const [key, value] of Object.entries(r.data[0])) {
+                console.log(value)
+                console.log(value == null || value == "null")
+                if (value == null || value == "null") {
+                    this.client[key] = "";
+                } else {
+                    this.client[key] = value;
+                }
+            }
+
+            this.mooring.client = this.client.username
+        }
+      })
     }
     
   },
   created() {
     if (this.$route.name === 'MooringsEdit') {
       this.mooring = this.$store.state.selectedMooring
+      this.getClient(this.mooring.client)
       this.editUser = true
     }
   }

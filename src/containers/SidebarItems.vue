@@ -24,6 +24,12 @@ export default {
                 },
                 {
                     _name: 'CSidebarNavItem',
+                   name: this.$t("clients"),
+                    to: '/clients',
+                    icon: 'cil-list',
+                },
+                {
+                    _name: 'CSidebarNavItem',
                    name: this.$t("orders"),
                     to: '/orders',
                     icon: 'cil-list',

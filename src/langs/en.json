@@ -80,5 +80,7 @@
     "orders": "Orders",
     "camera": "Camera",
     "forum": "Forum",
-    "NEW": "NEW"
+    "NEW": "NEW",
+    "clients": "Clients",
+    "clientChanged": "Client on this mooring will be changed"
 }
