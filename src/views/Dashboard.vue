@@ -142,7 +142,7 @@ import TheSidebarVue from '../containers/TheSidebar.vue'
  
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyB1sB2py3ww1fAiwpi7xyEtmYlovmPZiEk',
+    key: 'YOUR_GOOGLE_API_KEY',
   }})
 
 export default {

@@ -1,7 +1,7 @@
 const aws = {
-    userPoolId: 'us-east-2_3GZfzOFf4',
-    region: 'us-east-2',
-    userPoolWebClientId: '43f5l32975rpr21c70v04ao9t9',
+    userPoolId: 'YOUR_USER_POOL_ID',
+    region: 'YOUR_REGION',
+    userPoolWebClientId: 'YOUR_WEB_CLIENT_ID',
     cookieStorage: {
         domain: 'localhost',
         expires: 30,
