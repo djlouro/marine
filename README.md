@@ -10,7 +10,7 @@ nal forum for communication between clients within the marina to the app.
 We will use Amazon web services, Google maps API, Bootstrap and other
 Vue components in the production. 
 
-![alt text](https://ibb.co/xfmVkz4)
+![alt text](https://i.ibb.co/2s8X9cb/Dashboard-Admin.png)
 
 ## Project setup
 ```
